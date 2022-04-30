@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #F5F5F5;
+	line-height: 1;
+}
+.header{
+background-color: #323232;
+color: #f5f5f5;
+display: flex;
+justify-content: space-around;
+padding: 20px 0;
+position: fixed;
+width: 100%;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1;
+}
+.header ul li{
+	display: inline-block;
+	padding: 0 10px;
+	font-family:  'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+	font-size: 18px;
+	line-height: 2;
+}
+.header a{
+	text-decoration: none;
+	color: #F5F5F5;
+}
+.header a:hover{
+	color: #747474;
+	text-decoration: underline;
+}
+.header h2{
+	font-family: 'playfair-display', 'serif';
+	letter-spacing: 2px;
+	font-size: 34px;
+}
+
+.container img{
+	width: 100%;
+	height: auto;
+}
+.container .texttrai{
+	position: absolute;
+	top: 350px;
+  left: 25px;
+	color: #F5F5F5;
+}
+.container h1{
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+	font-size: 80px;
+	font-weight: 900;
+}
+.container h3{
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 1px;
+	font-size: 40px;
+}
+.container hr{
+	border: 2px solid #f5f5f5;
+}
+.selection1{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	padding-top: 30px;
+	padding-left: 50px;
+	margin-right: 50px;	
+}
+.selection1 h1{
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+	font-size: 48px;
+	font-weight: 900;
+	color: #323232;
+	padding-left: 30px;
+	text-decoration: underline;
+}
+.selection1 p{
+	font-family: 'playfair-display', 'serif';
+	color: #323232;
+	line-height: 1.5;
+	padding-left: 30px;
+}
+hr{
+	border: 1px solid #323232;
+	margin: auto;
+	width: 80%;
+}
+.selection2 .skill h1{
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+	font-size: 48px;
+	font-weight: 900;
+	color: #323232;
+	text-align: center;
+	padding: 50px 50px 0 50px;
+	text-decoration: underline;
+
+}
+.grid {
+    margin: 0 20%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    padding-bottom: 8%;
+	text-align: center;
+}
+.selection3 .product h1{
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+	font-size: 48px;
+	font-weight: 900;
+	color: #323232;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+.selection3 .sanpham{
+	display: flex;
+    justify-content: center;
+}
+.selection3 .sanpham{
+	display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    height: 420px;
+}
+.selection3 .sanpham img{
+	border-radius: 3%;
+}
+.selection3 .sanpham h2{
+	font-family: 'playfair-display', 'serif';
+	color: #323232;
+	letter-spacing: 2px;
+	font-size: 32px;
+	font-weight: 900;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.selection3 .nut a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	background-color: #323232;
+	border-radius: 10px;
+	margin-top: 30px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 5px;
+	text-decoration: none;
+	 color: #f5f5f5;
+	margin-left: 1150px;
+	margin-bottom: 30px;
+}
+.nut i{
+	color: #f5f5f5;
+	position: relative;
+	top: 3px;
+	
+}
+.selection3 .nut a:hover, a:active{
+	color: #323232;
+	background-color: transparent;
+	border: 2px solid #323232;
+	display: inline-block;
+}
+.selection4 h1{
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+	font-size: 48px;
+	font-weight: 900;
+	color: #323232;
+	text-decoration: underline;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	margin-top: 250px;
+	margin-left: 150px;
+}
+.selection4 .contactform{
+	display: flex;
+	border-radius: 8px;
+    margin: 30px 130px;
+    justify-content: center;
+    text-align: center;
+	background: #323232;
+	height: 400px;
+    width: 350px;
+	padding: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.selection4{
+	display: flex;
+    justify-content: space-between;
+}
+.selection4 h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	background: #f5f5f5;
+	color: #323232;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 8px;
+	padding: 8px 8px 1px 8px;
+	margin: 15px;
+	width: 280px;
+	
+}
+.selection4 .contactform form, input{
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	margin: 10px;
+	border: none;
+	border-bottom: 2px solid #f5f5f5;
+	height: 30px;
+	width: 280px;
+	padding: 8px;
+	color: #323232;
+}
+.selection4 .contactform textarea{
+	height: 50px;
+	width: 280px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	color: #323232;
+	border: none;
+	border-bottom: 2px solid #f5f5f5;
+	margin: 10px;
+	padding: 8px;
+	
+}
+.selection4 .socialicon{
+	display: flex;
+	padding: 5px;
+	margin-left: 200px;
+}
+
+.footer{
+	background-color: #323232;
+	height:  100px;
+	width: auto;
+
+}
+.footer h3{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #f5f5f5;
+	text-align: center;
+	padding: 50px;
+}
